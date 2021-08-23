@@ -1,5 +1,92 @@
 <template>
   <div>
-    <h1>Email</h1>
+    <v-container>
+      <v-row justify>
+        <v-col
+          cols="12"
+          sm="1"
+        >
+          <v-sheet
+            class="grey lighten-3"
+          >
+          </v-sheet>
+        </v-col>
+
+        <v-col
+          cols="12"
+          sm="8"
+        >
+          <v-sheet
+            rounded="lg"
+            class="px-12 py-10"
+          >
+            <v-avatar size="150">
+              <img
+                src="../assets/kinari.png"
+                alt="Kinari"
+              >
+            </v-avatar>
+            <span class="ma-8 arrow_box">
+              🙆‍♂️ 現在転職活動中です！
+              📩 お気軽にメッセージください！
+            </span>
+            <contact-links></contact-links>
+          </v-sheet>
+        </v-col>
+        <v-col
+          cols="12"
+          sm="3"
+        >
+          <v-sheet
+            class="grey lighten-3"
+          >
+          </v-sheet>
+        </v-col>
+      </v-row>
+    </v-container>
   </div>
 </template>
+
+<script>
+import ContactLinks from '../components/ContactLinks.vue'
+
+export default {
+  components: { ContactLinks },
+}
+</script>
+
+<style scoped>
+.arrow_box{
+    position:relative;
+    width:300px;
+    height:140px;
+    background:#eeeeee;
+    padding:20px;
+    text-align:left;
+    color:#333333;
+    font-size:14px;
+    font-weight:bold;
+    border-radius:15px;
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+}
+.arrow_box:after{
+    border: solid transparent;
+    content:'';
+    height:0;
+    width:0;
+    pointer-events:none;
+    position:absolute;
+    border-color: rgba(230, 230, 230, 0);
+    border-top-width:10px;
+    border-bottom-width:10px;
+    border-left-width:30px;
+    border-right-width:30px;
+    margin-top: -10px;
+    border-right-color:#eeeeee;
+    right:100%;
+    top:60%;
+}
+
+
+</style>

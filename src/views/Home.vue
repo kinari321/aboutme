@@ -1,49 +1,54 @@
 <template>
   <div>
-     <v-container>
-        <v-row>
-          <v-col
-            cols="12"
-            sm="1"
+    <v-container>
+      <v-row>
+        <v-col
+          cols="12"
+          sm="1"
+        >
+          <v-sheet
+            rounded="lg"
+            min-height="268"
+            class="grey lighten-3"
           >
-            <v-sheet
-              rounded="lg"
-              min-height="268"
-              class="grey lighten-3"
-            >
-              <!--  -->
-            </v-sheet>
-          </v-col>
+            <!--  -->
+          </v-sheet>
+        </v-col>
 
-          <v-col
-            cols="12"
-            sm="8"
+        <v-col
+          cols="12"
+          sm="8"
+        >
+          <v-sheet
+            min-height="70vh"
+            rounded="lg"
           >
-            <v-sheet
-              min-height="70vh"
-              rounded="lg"
-            >
-              <!--  -->
-            </v-sheet>
-          </v-col>
+            <Links></Links>
+          </v-sheet>
+        </v-col>
 
-          <v-col
-            cols="12"
-            sm="3"
+        <v-col
+          cols="12"
+          sm="3"
+        >
+          <v-sheet
+            rounded="lg"
+            min-height="268"
           >
-            <v-sheet
-              rounded="lg"
-              min-height="268"
-            >
-              <!--  -->
-            </v-sheet>
-          </v-col>
-        </v-row>
-      </v-container>
+            <!--  -->
+          </v-sheet>
+        </v-col>
+      </v-row>
+    </v-container>
   </div>
 </template>
 
 <script>
-  export default {
-  }
+import Links from '../components/Links.vue'
+
+export default {
+  components: {
+    Links,
+  },
+}
 </script>
