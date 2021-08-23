@@ -6,10 +6,13 @@
       <v-tool-title>Nav Bar</v-tool-title>
       <v-spacer></v-spacer>
       <v-toolbar-items>
-      <v-btn text><v-icon>mdi-account-outline</v-icon>About me</v-btn>
-        <v-btn text><v-icon>mdi-email-outline</v-icon>Contact</v-btn>
+      <v-btn text to="/"><v-icon>mdi-account-outline</v-icon>About me</v-btn>
+        <v-btn text to="/contact"><v-icon>mdi-email-outline</v-icon>Contact</v-btn>
       </v-toolbar-items>
     </v-app-bar>
+    <v-main>
+      <router-view />
+    </v-main>
     <v-footer color="primary" dark app>
       Footer
     </v-footer>
