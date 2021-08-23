@@ -3,7 +3,7 @@
     <v-app-bar
       color="#6A76AB"
       dark
-      class="text-sm-h5"
+      class="text-sm-h5 "
     >
       <v-tool-title>Kinari Shirakawa</v-tool-title>
       <v-spacer></v-spacer>
@@ -12,7 +12,7 @@
         <v-btn text to="/contact"><v-icon>mdi-email-outline</v-icon>Contact</v-btn>
       </v-toolbar-items>
     </v-app-bar>
-    <v-main class="grey lighten-3">
+    <v-main absolute class="grey lighten-3">
       <router-view />
     </v-main>
     <v-footer color="#6A76AB" dark app>
@@ -33,6 +33,11 @@ export default {
 </script>
 
 <style scoped>
+.v-app-bar{
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
 .v-btn{
   text-transform: none
 }
