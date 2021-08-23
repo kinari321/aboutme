@@ -6,8 +6,8 @@
       <v-tool-title>Nav Bar</v-tool-title>
       <v-spacer></v-spacer>
       <v-toolbar-items>
-      <v-btn text>About me</v-btn>
-        <v-btn text>Contact</v-btn>
+      <v-btn text><v-icon>mdi-account-outline</v-icon>About me</v-btn>
+        <v-btn text><v-icon>mdi-email-outline</v-icon>Contact</v-btn>
       </v-toolbar-items>
     </v-app-bar>
     <v-footer color="primary" dark app>
