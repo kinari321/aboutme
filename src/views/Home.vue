@@ -5,17 +5,16 @@
         <v-col
           cols="12"
           sm="9"
-
         >
           <v-sheet
             min-height="70vh"
             rounded="lg"
           >
-            <about-me align="center"></about-me>
-            <works align="center"></works>
-            <skills align="center"></skills>
-            <contact align="center"></contact>
-            <contact-links></contact-links>
+            <about-me align="center" style="height: 200px; background-color: yellow;"></about-me>
+            <works align="center" style="height: 200px; background-color: green;"></works>
+            <skills align="center" style="height: 200px; background-color: red;"></skills>
+            <contact align="center" style="height: 200px;" ></contact>
+            <contact-links style="background-color: blue;"></contact-links>
           </v-sheet>
         </v-col>
       </v-row>
