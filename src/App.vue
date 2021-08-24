@@ -13,17 +13,18 @@
       </v-toolbar-items>
     </v-app-bar>
     <v-main absolute class="grey lighten-3">
-      <router-view />
+      <Home></Home>
     </v-main>
-    <v-footer color="#6A76AB" dark app>
-      Footer
-    </v-footer>
   </v-app>
 </template>
 
 <script>
+import Home from '@/views/Home.vue'
 
 export default {
+  components: {
+    Home,
+  },
   data() {
     return{
       drawer: null

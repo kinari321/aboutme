@@ -1,24 +1,8 @@
 <template>
   <div>
-    <v-container>
-      <v-row justify>
-        <v-col
-          cols="12"
-          sm="1"
-        >
-          <v-sheet
-            class="grey lighten-3"
-          >
-          </v-sheet>
-        </v-col>
-
-        <v-col
-          cols="12"
-          sm="8"
-        >
           <v-sheet
             rounded="lg"
-            class="px-12 py-10"
+            class="px-12 pt-10"
           >
             <v-avatar size="150">
               <img
@@ -30,28 +14,16 @@
               🙆‍♂️ 現在転職活動中です！
               📩 お気軽にメッセージください！
             </span>
-            <contact-links></contact-links>
+            <!-- <contact-links></contact-links> -->
           </v-sheet>
-        </v-col>
-        <v-col
-          cols="12"
-          sm="3"
-        >
-          <v-sheet
-            class="grey lighten-3"
-          >
-          </v-sheet>
-        </v-col>
-      </v-row>
-    </v-container>
   </div>
 </template>
 
 <script>
-import ContactLinks from '../components/ContactLinks.vue'
+// import ContactLinks from './ContactLinks.vue'
 
 export default {
-  components: { ContactLinks },
+  // components: { ContactLinks },
 }
 </script>
 
@@ -60,7 +32,7 @@ export default {
     position:relative;
     width:300px;
     height:140px;
-    background:#eeeeee;
+    background:#f0f0f0;
     padding:20px;
     text-align:left;
     color:#333333;
@@ -83,7 +55,7 @@ export default {
     border-left-width:30px;
     border-right-width:30px;
     margin-top: -10px;
-    border-right-color:#eeeeee;
+    border-right-color:#f0f0f0;
     right:100%;
     top:60%;
 }

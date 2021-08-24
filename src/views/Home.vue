@@ -1,41 +1,19 @@
 <template>
   <div>
     <v-container>
-      <v-row>
+      <v-row justify="center">
         <v-col
           cols="12"
-          sm="1"
-        >
-          <v-sheet
-            rounded="lg"
-            min-height="268"
-            class="grey lighten-3"
-          >
-            <!--  -->
-          </v-sheet>
-        </v-col>
+          sm="9"
 
-        <v-col
-          cols="12"
-          sm="8"
         >
           <v-sheet
             min-height="70vh"
             rounded="lg"
           >
-            <Links></Links>
-          </v-sheet>
-        </v-col>
-
-        <v-col
-          cols="12"
-          sm="3"
-        >
-          <v-sheet
-            rounded="lg"
-            min-height="268"
-          >
-            <!--  -->
+            <about-me align="center"></about-me>
+            <avatar></avatar>
+            <contact-links></contact-links>
           </v-sheet>
         </v-col>
       </v-row>
@@ -44,11 +22,15 @@
 </template>
 
 <script>
-import Links from '../components/Links.vue'
+import AboutMe from '../components/AboutMe.vue'
+import Avatar from '../components/Avatar.vue'
+import ContactLinks from '../components/ContactLinks.vue'
 
 export default {
   components: {
-    Links,
+    ContactLinks,
+    Avatar,
+    AboutMe,
   },
 }
 </script>
