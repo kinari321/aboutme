@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h1>About me</h1>
-    <div class="subtitle">私について</div>
+    <h1>Works</h1>
+    <div class="subtitle">制作物</div>
   </div>
 </template>
 

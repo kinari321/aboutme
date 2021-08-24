@@ -1,21 +1,23 @@
 <template>
   <div>
-          <v-sheet
-            rounded="lg"
-            class="px-12 pt-10"
+    <h1>Contact</h1>
+    <div class="subtitle">ご連絡</div>
+      <v-sheet
+        rounded="lg"
+        class="px-12"
+      >
+        <v-avatar size="150">
+          <img
+            src="../assets/kinari.png"
+            alt="Kinari"
           >
-            <v-avatar size="150">
-              <img
-                src="../assets/kinari.png"
-                alt="Kinari"
-              >
-            </v-avatar>
-            <span class="ma-8 arrow_box">
-              🙆‍♂️ 現在転職活動中です！
-              📩 お気軽にメッセージください！
-            </span>
-            <!-- <contact-links></contact-links> -->
-          </v-sheet>
+        </v-avatar>
+        <span class="ma-8 arrow_box">
+          🙆‍♂️ 現在転職活動中です！
+          📩 お気軽にメッセージください！
+        </span>
+        <!-- <contact-links></contact-links> -->
+      </v-sheet>
   </div>
 </template>
 

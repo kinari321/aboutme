@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h1>About me</h1>
-    <div class="subtitle">私について</div>
+    <h1>Skills</h1>
+    <div class="subtitle">スキル</div>
   </div>
 </template>
 

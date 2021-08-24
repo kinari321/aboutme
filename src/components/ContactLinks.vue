@@ -1,5 +1,5 @@
 <template>
-  <div class="px-10 py-3">
+  <div class="px-15 py-3">
     <v-card class="my-5">
       <v-card-title class="d-flex flex-column align-start">
         <span class="title">Email</span>
