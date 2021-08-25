@@ -18,10 +18,10 @@ export default {
   },
   data() {
     return{
-      drawer: null
+      drawer: null,
     }
-  }
-};
+  },
+}
 </script>
 
 <style scoped>
