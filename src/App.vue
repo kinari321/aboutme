@@ -3,9 +3,7 @@
     <NavBar />
     <Top />
     <v-main>
-      <v-container>
-        <Home />
-      </v-container>
+      <Home />
     </v-main>
   </v-app>
 </template>

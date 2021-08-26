@@ -2,30 +2,30 @@
   <div>
     <h1>Contact</h1>
     <div class="subtitle">ご連絡</div>
-      <v-sheet
-        rounded="lg"
-        class="px-12"
-      >
-        <v-avatar size="150">
-          <img
-            src="../assets/kinari.png"
-            alt="Kinari"
-          >
-        </v-avatar>
-        <span class="ma-8 arrow_box">
-          🙆‍♂️ 現在転職活動中です！
-          📩 お気軽にメッセージください！
-        </span>
-        <!-- <contact-links></contact-links> -->
-      </v-sheet>
+    <v-sheet
+      class="px-15 pt-10 contacts"
+    >
+      <v-avatar size="150">
+        <img
+          src="../assets/kinari.png"
+          alt="Kinari"
+        >
+      </v-avatar>
+      <span class="ma-8 arrow_box">
+        🙆‍♂️ 現在転職活動中です！
+        📩 お気軽にメッセージください！
+      </span>
+      <contact-links />
+    </v-sheet>
   </div>
+
 </template>
 
 <script>
-// import ContactLinks from './ContactLinks.vue'
+import ContactLinks from './ContactLinks.vue'
 
 export default {
-  // components: { ContactLinks },
+  components: { ContactLinks },
 }
 </script>
 
@@ -62,5 +62,23 @@ export default {
     top:60%;
 }
 
-
+.title{
+  color: #4f5a8a;
+}
+.post-link {
+  display: inline-block;
+  word-break: break-all;
+  padding: 2px 8px;
+  border-radius: 5px;
+  text-transform: none !important;
+  white-space: normal;
+  max-width: calc(100% - 30px);
+  height: inherit !important;
+}
+.email{
+  font-weight: bold;
+}
+.contacts{
+  background-color: grey;
+}
 </style>

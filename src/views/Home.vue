@@ -1,31 +1,15 @@
 <template>
   <div>
-    <v-row justify="center">
-      <v-col
-        cols="12"
-        sm="10"
-      >
-        <v-sheet
-          min-height="70vh"
-          rounded="lg"
-        >
-          <about-me align="center" style="height: 200px; background-color: yellow;"></about-me>
-          <works align="center" style="height: 200px; background-color: green;"></works>
-          <skills align="center" style="height: 200px; background-color: red;"></skills>
-          <contact align="center" style="height: 200px;" ></contact>
-          <div class="odd">
-            <contact-links style="background-color: blue;"></contact-links>
-          </div>
-        </v-sheet>
-      </v-col>
-    </v-row>
+    <about-me align="center" style="height: 200px; background-color: white;"></about-me>
+    <works align="center" style="height: 200px; background-color: grey;"></works>
+    <skills align="center" style="height: 200px; background-color: white;"></skills>
+    <contact align="center" style="height: 200px; background-color: grey;" ></contact>
   </div>
 </template>
 
 <script>
 import AboutMe from '../components/AboutMe.vue'
 import Contact from '../components/Contact.vue'
-import ContactLinks from '../components/ContactLinks.vue'
 import Skills from '../components/Skills.vue'
 import Works from '../components/Works.vue'
 import * as easings from 'vuetify/lib/services/goto/easing-patterns'
@@ -34,7 +18,6 @@ export default {
   components: {
     AboutMe,
     Contact,
-    ContactLinks,
     Skills,
     Works,
   },
