@@ -33,6 +33,6 @@ export default {
 }
 .v-main{
   height: 1400px;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 }
 </style>

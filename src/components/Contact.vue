@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="display-3">Contact</h1>
-    <div class="subtitle">ご連絡</div>
+    <div class="">ご連絡</div>
     <v-sheet
       class="px-15 pt-10 contacts"
     >
