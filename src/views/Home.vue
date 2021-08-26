@@ -1,9 +1,9 @@
 <template>
-  <div>
-    <about-me align="center" class="odd"></about-me>
-    <works align="center" class="even"></works>
-    <skills align="center" class="odd"></skills>
-    <contact align="center" class="even"></contact>
+  <div align="center">
+    <about-me class="odd"></about-me>
+    <works class="even"></works>
+    <skills class="odd"></skills>
+    <contact class="even"></contact>
   </div>
 </template>
 
@@ -58,12 +58,14 @@ export default {
 
 <style>
 h4{
-  color:grey
+  color:grey;
 }
 .odd{
   background-color: white;
+  padding: 5% 0;
 }
 .even{
   background-color: rgb(230, 230, 230);
+  padding: 5% 0;
 }
 </style>

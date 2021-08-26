@@ -5,7 +5,7 @@
       About me
     </h1>
     <div class="subtitle">私について</div>
-    <v-avatar size="150">
+    <v-avatar size="250">
       <img
         src="../assets/kinari.png"
         alt="Kinari"
