@@ -1,8 +1,11 @@
 <template>
   <v-app>
-    <NavBar></NavBar>
-    <v-main absolute class="grey lighten-3">
-      <Home></Home>
+    <NavBar />
+    <Top />
+    <v-main>
+      <v-container>
+        <Home />
+      </v-container>
     </v-main>
   </v-app>
 </template>
@@ -10,11 +13,13 @@
 <script>
 import Home from '@/views/Home.vue'
 import NavBar from '@/views/NavBar.vue'
+import Top from '@/components/Top.vue'
 
 export default {
   components: {
     Home,
     NavBar,
+    Top,
   },
   data() {
     return{
@@ -30,6 +35,6 @@ export default {
 }
 .v-main{
   height: 1400px;
+  background-color: aquamarine;
 }
-
 </style>

@@ -1,32 +1,24 @@
 <template>
   <div>
-    <v-container>
-      <v-row justify="center">
-        <v-col
-          cols="12"
-          sm="9"
+    <v-row justify="center">
+      <v-col
+        cols="12"
+        sm="10"
+      >
+        <v-sheet
+          min-height="70vh"
+          rounded="lg"
         >
-          <v-sheet
-            min-height="70vh"
-            rounded="lg"
-          >
-          <v-btn
-              ref="button"
-              block
-              color="primary"
-              @click="$vuetify.goTo(200, options)"
-            >
-            <v-icon>mdi-email-outline</v-icon>Contact
-          </v-btn>
-            <about-me align="center" style="height: 200px; background-color: yellow;"></about-me>
-            <works align="center" style="height: 200px; background-color: green;"></works>
-            <skills align="center" style="height: 200px; background-color: red;"></skills>
-            <contact align="center" style="height: 200px;" ></contact>
+          <about-me align="center" style="height: 200px; background-color: yellow;"></about-me>
+          <works align="center" style="height: 200px; background-color: green;"></works>
+          <skills align="center" style="height: 200px; background-color: red;"></skills>
+          <contact align="center" style="height: 200px;" ></contact>
+          <div class="odd">
             <contact-links style="background-color: blue;"></contact-links>
-          </v-sheet>
-        </v-col>
-      </v-row>
-    </v-container>
+          </div>
+        </v-sheet>
+      </v-col>
+    </v-row>
   </div>
 </template>
 

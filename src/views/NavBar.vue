@@ -74,5 +74,6 @@ export default {
   position: -webkit-sticky;
   top: 6em;
   z-index: 100;
+  /* color: rgb(168, 214, 255); */
 }
 </style>
