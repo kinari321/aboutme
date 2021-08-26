@@ -34,7 +34,7 @@ export default {
     position:relative;
     width:300px;
     height:140px;
-    background:#f0f0f0;
+    background:white;
     padding:20px;
     text-align:left;
     color:#333333;
@@ -57,7 +57,7 @@ export default {
     border-left-width:30px;
     border-right-width:30px;
     margin-top: -10px;
-    border-right-color:#f0f0f0;
+    border-right-color:white;
     right:100%;
     top:60%;
 }
@@ -79,6 +79,6 @@ export default {
   font-weight: bold;
 }
 .contacts{
-  background-color: grey;
+  background-color: rgb(230, 230, 230);
 }
 </style>

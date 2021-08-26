@@ -1,9 +1,9 @@
 <template>
   <div>
-    <about-me align="center" style="height: 200px; background-color: white;"></about-me>
-    <works align="center" style="height: 200px; background-color: grey;"></works>
-    <skills align="center" style="height: 200px; background-color: white;"></skills>
-    <contact align="center" style="height: 200px; background-color: grey;" ></contact>
+    <about-me align="center" class="odd"></about-me>
+    <works align="center" class="even"></works>
+    <skills align="center" class="odd"></skills>
+    <contact align="center" class="even"></contact>
   </div>
 </template>
 
@@ -57,8 +57,13 @@ export default {
 </script>
 
 <style>
-
 h4{
   color:grey
+}
+.odd{
+  background-color: white;
+}
+.even{
+  background-color: rgb(230, 230, 230);
 }
 </style>
