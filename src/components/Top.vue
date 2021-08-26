@@ -7,7 +7,8 @@
       class="background-image mt-15"
     >
       <v-row>
-        <v-col class="background-image-text">
+        <v-col
+        class="background-image-text">
           <p>Welcome to my website!</p>
         </v-col>
       </v-row>
@@ -33,7 +34,6 @@
   color: aliceblue;
   text-align: center;
   font-size: 28px;
-  font-weight: bold;
 }
 
 

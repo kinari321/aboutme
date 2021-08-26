@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Works</h1>
+    <h1 class="display-3">Works</h1>
     <div class="subtitle">制作物</div>
   </div>
 </template>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Skills</h1>
+    <h1 class="display-3">Skills</h1>
     <div class="subtitle">スキル</div>
   </div>
 </template>

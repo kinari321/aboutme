@@ -57,9 +57,7 @@ export default {
 </script>
 
 <style>
-.subtitle{
-  color: #757d9b;
-}
+
 h4{
   color:grey
 }
