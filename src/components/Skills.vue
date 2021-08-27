@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="contents">
     <h1 class="display-3">Skills</h1>
     <div class="">スキル</div>
   </div>

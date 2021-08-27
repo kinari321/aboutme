@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="contents">
     <h1 class="display-3">Contact</h1>
     <div class="">ご連絡</div>
     <v-sheet

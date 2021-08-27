@@ -56,16 +56,17 @@ export default {
 }
 </script>
 
-<style>
+<style >
 h4{
   color:grey;
 }
+.contents{
+  padding: 5% 12%;
+}
 .odd{
   background-color: white;
-  padding: 5% 0;
 }
 .even{
   background-color: rgb(230, 230, 230);
-  padding: 5% 0;
 }
 </style>
