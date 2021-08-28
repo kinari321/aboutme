@@ -4,7 +4,7 @@
       app
       fluid
       fill-height
-      class="background-image mt-15"
+      class="background-image"
     >
       <v-row>
         <v-col

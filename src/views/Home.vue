@@ -61,7 +61,7 @@ h4{
   color:grey;
 }
 .contents{
-  padding: 5% 12%;
+  padding: 3% 12%;
 }
 .odd{
   background-color: white;
