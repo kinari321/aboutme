@@ -50,15 +50,15 @@
               </v-list-item-title>
               <table cellspacing=0 class="pa-2">
                 <tr>
-                  <td width="28%">名前</td>
+                  <td width="28%" class="font-weight-bold">名前</td>
                   <td>白川 生成（しらかわ きなり）</td>
                 </tr>
                 <tr>
-                  <td>生年月日</td>
+                  <td class="font-weight-bold">生年月日</td>
                   <td>1998年3月生まれ（23歳)</td>
                 </tr>
                 <tr>
-                  <td style="border-style: none;">出身</td>
+                  <td class="font-weight-bold" style="border-style: none;">出身</td>
                   <td style="border-style: none;">和歌山県</td>
                 </tr>
               </table>
@@ -67,19 +67,19 @@
               </v-list-item-title>
               <table cellspacing=0 class="pa-2">
                 <tr>
-                  <td width="28%" class="learning">2021年 1月 - 2月</td>
+                  <td width="28%" text class="learning font-weight-bold">2021年 1月 - 2月</td>
                   <td>Go言語・Linux・HTML/CSS・JavaScript・SQL・Git/Github</td>
                 </tr>
                 <tr>
-                  <td class="learning">2021年 3月</td>
+                  <td class="learning font-weight-bold">2021年 3月</td>
                   <td>AWS（VPC・EC2・RDS・IAM・Route 53・Lightsail）</td>
                 </tr>
                 <tr>
-                  <td>2021年 4月 - 5月</td>
+                  <td class="font-weight-bold">2021年 4月 - 5月</td>
                   <td>ポートフォリオ制作（空き家でGo）</td>
                 </tr>
                 <tr>
-                  <td class="learning" style="border-style: none;">2021年 6月 - 現在</td>
+                  <td class="font-weight-bold learning" style="border-style: none;">2021年 6月 - 現在</td>
                   <td style="border-style: none;"> 転職活動を開始 + Docker・Github Actions(CI/CD)・Vue.jsなどを並行して学習中</td>
                 </tr>
               </table>
