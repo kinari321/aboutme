@@ -32,8 +32,4 @@ export default {
 .v-btn{
   text-transform: none
 }
-.v-main{
-  height: 1400px;
-  /* background-color: aquamarine; */
-}
 </style>
