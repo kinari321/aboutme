@@ -59,7 +59,7 @@
         </v-card-actions>
         <v-expand-transition>
           <div v-show="show">
-            <v-divider></v-divider>
+            <v-divider class="pb-5"></v-divider>
             <h3>テストユーザー</h3>
             <body>
               メールアドレス： test@example.com パスワード：test
@@ -168,7 +168,7 @@
         </v-card-actions>
         <v-expand-transition>
           <div v-show="show">
-            <v-divider></v-divider>
+            <v-divider class="pb-5"></v-divider>
             <h3>使用技術</h3>
             <table cellspacing=0 class="pa-2">
               <tr>
