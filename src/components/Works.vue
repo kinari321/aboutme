@@ -1,6 +1,9 @@
 <template>
   <div class="contents">
-    <h1 class="display-3">Works</h1>
+    <h1 class="display-3">
+        <v-icon class="display-3" style="color: black;">mdi-laptop</v-icon>
+      Works
+    </h1>
     <div class="">制作物</div>
 
     <v-card
