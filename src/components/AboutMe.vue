@@ -62,7 +62,7 @@
                   <td style="border-style: none;">和歌山県</td>
                 </tr>
               </table>
-              <v-list-item-title class="text-h5">
+              <v-list-item-title class="text-h5 mt-4 mb-n1">
                 ✍️ 学習経歴
               </v-list-item-title>
               <table cellspacing=0 class="pa-2">
