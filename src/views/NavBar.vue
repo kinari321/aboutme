@@ -5,7 +5,6 @@
       app
       color="teamlab"
       dark
-      elevate-on-scroll
       class="text-sm-h5 fixed-bar"
     >
       <v-tool-title>Kinari Shirakawa</v-tool-title>
@@ -89,7 +88,7 @@ export default {
 .fixed-bar{
   position: sticky;
   position: -webkit-sticky;
-  top: 6em;
+  /* top: 6em; */
   z-index: 100;
 }
 </style>
