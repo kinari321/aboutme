@@ -12,6 +12,7 @@
 import Home from '@/views/Home.vue'
 import NavBar from '@/views/NavBar.vue'
 import Top from '@/components/Top.vue'
+import "devicon"
 
 export default {
   components: {
