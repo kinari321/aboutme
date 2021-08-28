@@ -2,7 +2,7 @@
   <div>
     <v-app-bar
       app
-      color="#6A76AB"
+      color="teamlab"
       dark
       class="text-sm-h5 fixed-bar"
     >
@@ -11,14 +11,14 @@
       <v-toolbar-items>
       <v-btn
         ref="button"
-        color="#6A76AB"
+        color="teamlab"
         @click="$vuetify.goTo(50, options)"
       >
       <v-icon>mdi-account-outline</v-icon>About Me
       </v-btn>
       <v-btn
           ref="button"
-          color="#6A76AB"
+          color="teamlab"
           @click="$vuetify.goTo(200, options)"
         >
         <v-icon>mdi-email-outline</v-icon>Contact
@@ -74,6 +74,5 @@ export default {
   position: -webkit-sticky;
   top: 6em;
   z-index: 100;
-  /* color: rgb(168, 214, 255); */
 }
 </style>
