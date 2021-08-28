@@ -113,6 +113,10 @@
                 <td>Docker (docker-compose)・Git/Github・Makefile</td>
               </tr>
             </table>
+            <h3 class="pt-3">インフラ構成図</h3>
+            <body>
+              <v-img width="80%" src="../assets/infra-structure.png"></v-img>
+            </body>
           </div>
         </v-expand-transition>
       </v-card-text>
