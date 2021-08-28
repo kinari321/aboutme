@@ -26,14 +26,14 @@
       <v-btn
         ref="button"
         color="teamlab"
-        @click="$vuetify.goTo(3000, options)"
+        @click="$vuetify.goTo(3100, options)"
       >
       <v-icon class="pr-1">mdi-tools</v-icon>Skills
       </v-btn>
       <v-btn
           ref="button"
           color="teamlab"
-          @click="$vuetify.goTo(5000, options)"
+          @click="$vuetify.goTo(4500, options)"
         >
         <v-icon class="pr-1">mdi-email-outline</v-icon>Contact
       </v-btn>
