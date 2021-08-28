@@ -12,16 +12,30 @@
       <v-btn
         ref="button"
         color="teamlab"
-        @click="$vuetify.goTo(50, options)"
+        @click="$vuetify.goTo(680, options)"
       >
-      <v-icon>mdi-account-outline</v-icon>About Me
+      <v-icon class="pr-1">mdi-account-outline</v-icon>About Me
+      </v-btn>
+      <v-btn
+        ref="button"
+        color="teamlab"
+        @click="$vuetify.goTo(1250, options)"
+      >
+      <v-icon class="pr-2">mdi-laptop</v-icon>Works
+      </v-btn>
+      <v-btn
+        ref="button"
+        color="teamlab"
+        @click="$vuetify.goTo(3000, options)"
+      >
+      <v-icon class="pr-1">mdi-tools</v-icon>Skills
       </v-btn>
       <v-btn
           ref="button"
           color="teamlab"
-          @click="$vuetify.goTo(200, options)"
+          @click="$vuetify.goTo(5000, options)"
         >
-        <v-icon>mdi-email-outline</v-icon>Contact
+        <v-icon class="pr-1">mdi-email-outline</v-icon>Contact
       </v-btn>
       </v-toolbar-items>
     </v-app-bar>
@@ -41,7 +55,7 @@ export default {
       selected: 'Button',
       elements: ['Button', 'Radio group'],
       duration: 500,
-      offset: -115,
+      offset: 0,
       easing: 'easeInOutCubic',
       easings: Object.keys(easings),
     }

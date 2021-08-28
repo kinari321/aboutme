@@ -1,6 +1,6 @@
 <template>
   <div class=contents>
-    <h1 class="display-3">
+    <h1 class="display-3 mt-n14">
       <v-icon class="display-3" style="color: black;">mdi-account-outline</v-icon>
       About me
     </h1>
