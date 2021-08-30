@@ -48,20 +48,20 @@
           <v-btn
             color="teamlab"
             text
-            @click="show = !show"
+            @click="show1 = !show1"
           >
             more
           </v-btn>
           <v-spacer></v-spacer>
           <v-btn
             icon
-            @click="show = !show"
+            @click="show1 = !show1"
           >
-            <v-icon>{{ show ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
+            <v-icon>{{ show1 ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
           </v-btn>
         </v-card-actions>
         <v-expand-transition>
-          <div v-show="show">
+          <div v-show="show1">
             <v-divider class="pb-5"></v-divider>
             <h3>テストユーザー</h3>
             <body>
@@ -161,20 +161,20 @@
           <v-btn
             color="teamlab"
             text
-            @click="show = !show"
+            @click="show2 = !show2"
           >
             more
           </v-btn>
           <v-spacer></v-spacer>
           <v-btn
             icon
-            @click="show = !show"
+            @click="show2 = !show2"
           >
-            <v-icon>{{ show ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
+            <v-icon>{{ show2 ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
           </v-btn>
         </v-card-actions>
         <v-expand-transition>
-          <div v-show="show">
+          <div v-show="show2">
             <v-divider class="pb-5"></v-divider>
             <h3>使用技術</h3>
             <table cellspacing=0 class="pa-2">
@@ -197,7 +197,8 @@
 <script>
   export default {
     data: () => ({
-      show: false,
+      show1: false,
+      show2: false,
     }),
   }
 </script>
