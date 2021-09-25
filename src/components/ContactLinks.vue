@@ -42,6 +42,29 @@
         </v-btn>
       </v-card-text>
     </v-card>
+    <v-card class="my-5">
+      <v-card-title class="d-flex flex-column align-start">
+        <span class="title">Github</span>
+      </v-card-title>
+      <v-card-text class="d-flex align-center">
+        <span class="mr-1">Link:</span>
+        <v-btn
+          href="https://github.com/kinari321"
+          text
+          color="link"
+          min-height="20"
+          class="x-small post-link align-center py-1 px-2"
+        >
+          <span class="text-left">https://github.com/kinari321</span>
+        </v-btn>
+       </v-card-text>
+        <v-img
+          max-height="400"
+          class="pt-auto ml-10 justify-center"
+          src="https://grass-graph.appspot.com/images/kinari321.png"
+        >
+        </v-img>
+    </v-card>
   </div>
 </template>
 
