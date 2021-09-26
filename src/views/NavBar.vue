@@ -88,7 +88,6 @@ export default {
 .fixed-bar{
   position: sticky;
   position: -webkit-sticky;
-  /* top: 6em; */
   z-index: 100;
 }
 </style>
